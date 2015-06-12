@@ -1,0 +1,2088 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #EFEFEF;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+    .HomePage{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    
+    }
+
+    .HomePage_Header {
+    text-align: center;
+    padding: inherit;
+    margin: auto;
+    }
+
+    a {
+    color: white;
+    text-decoration: none;
+    }
+
+    .Home_Bio_Image{
+    position:absolute;
+    width:80%;
+    height:600px;
+    left: 10%;
+    border-style:solid;
+    border-color:black;
+    border-width: 5px;
+    }
+
+    .Home_Bio_Text{
+    position: absolute;
+    right:10%;
+    top:65%;
+    opacity: 0.8
+    }
+
+    .Home_Matches_Image{
+    position: absolute;
+    width:40%;
+    height:300px;
+    left:5%;
+    top:80%;
+    border-style:solid;
+    border-color:black;
+    border-width: 5px;
+    z-index: -1;
+    }
+
+    .Home_Matches_Text{
+    position: absolute;
+    left:6%;
+    top:1050px;
+    opacity: 0.8
+    }
+
+    .Home_Gallery_Image{
+    position: absolute;
+    position: absolute;
+    width:40%;
+    height:300px;
+    right:5%;
+    top:80%;
+    border-style:solid;
+    border-color:black;
+    border-width: 5px;
+    z-index: -1;
+    }
+
+    .Home_Gallery_Text{
+    position: absolute;
+    right:6%;
+    top:1050px;
+    opacity: 0.8
+    }
+
+    .Home_Footer {
+    text-align: right;
+    width: 80%;
+    top:1200px;
+    position: absolute;
+    border-top: solid;
+    border-color: black;
+    left: 10%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-bottom-color: #EFEFEF;
+    border-top-color:#EFEFEF;
+    }
+
+    .Home_Facebook {
+    width: 35px;
+    position: absolute;
+    height: auto;
+    top:1337px;
+    left: 1100px; 
+    
+    }
+
+    .Home_Twitter {
+    width: 37px;
+    position: absolute;
+    height: auto;
+    left: 1145px;  
+    top:1336px;
+    }
+
+
+    .Home_Google{
+    width: 35px;
+    position: absolute;
+    height: auto;
+    left: 1186px; 
+    top:1335px;
+    }
+
+    .Home_Copyright {
+    width: 37px;
+    position: absolute;
+    height: auto;
+    top:1337px;
+    left: 85%;
+    }
+
+
+/* End of Home Page CSS
+   Start of Biography and Stats CSS*/
+
+    Body{
+    background-color:rgba(55, 55, 55, 0.67); 
+    background-image: url("/background.gif");
+    z-index: -1;
+    }
+
+
+    .Home_Icon_Bio {
+    height: 9%;
+    width: 5%;
+    top: 60px;
+    position: absolute;
+    left: 10%;
+    
+    } 
+
+    .Stats_Head {
+     text-align: center;
+     position: relative; 
+    }
+    
+    .Stats {
+    Width:100%;
+    height: 800px;
+    position:relative;
+    }
+
+    .Goals{
+    position:absolute;
+    left: 10%;
+    top:17%;
+    }
+
+    .Assists{
+    position:absolute;
+    left: 10%;
+    top: 43%
+    }
+
+    .Apps{
+    position:absolute;
+    left: 10%;
+    top: 68%
+    }
+    
+    .Overall{
+    position:absolute;
+    top:10px;
+    left:34%;
+    }
+    
+    .LaLiga{
+    position: absolute;
+    top:10px;
+    left:49%;
+    }
+
+    .ChampionsLeague{
+    position: absolute;
+    top:10px;
+    left: 59%;
+    }
+
+    .OtherCups{
+    position:absolute;
+    top:10px;
+    left:78%;
+    }
+
+    .Goals_Overall {
+    position:absolute;
+    width: 150px;
+    height: 125px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 15px;
+    left: 28%;
+    right: 28%;
+    margin: 50px;
+    top: 50px;
+    font-size: 400%;
+    text-align:center;
+    padding-top: 25px;
+    background-color: #AEAEAE;
+    color:goldenrod;
+    border-color:goldenrod;
+    }
+
+    .Goals_LaLiga {
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 15px;
+    text-align: center;
+    left: 40%;
+    right: 40%;
+    margin: 100px;
+    top: 0px;
+    font-size: 400%;
+    text-align:center;
+    padding-top: 25px;
+    background-color: #AEAEAE;
+    color:goldenrod;
+    border-color:goldenrod;
+    }
+
+    .Goals_CL {
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 15px;
+    text-align: center;
+    left: 55%;
+    right: 55%;
+    margin: 100px;
+    top: 0px;
+    font-size: 400%;
+    text-align:center;
+    padding-top: 25px;
+    background-color: #AEAEAE;
+    color:goldenrod;
+    border-color:goldenrod;
+    }
+
+    .Goals_Others {
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 15px;
+    text-align: center;
+    left: 70%;
+    right: 70%;
+    margin: 100px;
+    top: 0px;
+    font-size: 400%;
+    text-align:center;
+    padding-top: 25px;
+    background-color: #AEAEAE;
+    color:goldenrod;
+    border-color:goldenrod;
+    }
+
+    .Assists_Overall {
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 15px;
+    text-align: center;
+    left: 28%;
+    right: 28%;
+    margin: 50px;
+    top: 250px;
+    font-size: 400%;
+    text-align:center;
+    padding-top: 25px;
+    background-color: #AEAEAE;
+    color:goldenrod;
+    border-color:goldenrod;
+    }
+
+    .Assists_LaLiga {
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 15px;
+    text-align: center;
+    left: 40%;
+    right: 40%;
+    margin: 100px;
+    top: 200px;
+    font-size: 400%;
+    text-align:center;
+    padding-top: 25px;
+    background-color: #AEAEAE;
+    color:goldenrod;
+    border-color:goldenrod;
+    }
+
+    .Assists_CL {
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 15px;
+    text-align: center;
+    left: 55%;
+    right: 55%;
+    margin: 100px;
+    top: 200px;
+    font-size: 400%;
+    text-align:center;
+    padding-top: 25px;
+    background-color: #AEAEAE;
+    color:goldenrod;
+    border-color:goldenrod;
+    }
+
+    .Assists_Others {
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 15px;
+    text-align: center;
+    left: 70%;
+    right: 70%;
+    margin: 100px;
+    top: 200px;
+    font-size: 400%;
+    text-align:center;
+    padding-top: 25px;
+    background-color: #AEAEAE;
+    color:goldenrod;
+    border-color:goldenrod;
+    } 
+
+    .Appearances_Overall {
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 15px;
+    text-align: center;
+    left: 28%;
+    right: 28%;
+    margin: 50px;
+    top: 450px;
+    font-size: 400%;
+    text-align:center;
+    padding-top: 25px;
+    background-color: #AEAEAE;
+    color:goldenrod;
+    border-color:goldenrod;
+    }
+
+    .Appearances_LaLiga {
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 15px;
+    text-align: center;
+    left: 40%;
+    right: 40%;
+    margin: 100px;
+    top: 400px;
+    font-size: 400%;
+    text-align:center;
+    padding-top: 25px;
+    background-color: #AEAEAE;
+    color:goldenrod;
+    border-color:goldenrod;
+    }
+
+    .Appearances_CL {
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 15px;
+    text-align: center;
+    left: 55%;
+    right: 55%;
+    margin: 100px;
+    top: 400px;
+    font-size: 400%;
+    text-align:center;
+    padding-top: 25px;
+    background-color: #AEAEAE;
+    color:goldenrod;
+    border-color:goldenrod;
+    }
+
+    .Appearances_Others {
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 15px;
+    text-align: center;
+    left: 70%;
+    right: 70%;
+    margin: 100px;
+    bottom: inherit;
+    top: 400px;
+    font-size: 400%;
+    text-align:center;
+    padding-top: 25px;
+    background-color: #AEAEAE;
+    color:goldenrod;
+    border-color:goldenrod;
+    } 
+    
+    .Bio_Head {
+    text-align: center;
+    position: relative;
+    top:0px;
+    }
+
+    .Biography {
+    width:75%;
+    margin-left: 12%; 
+    text-align: center;
+    top:0px;
+    position: relative;
+    }
+
+    .Bio_Footer {
+    text-align: right;
+    width: 80%;
+    bottom: 15px;
+    position: relative;
+    border-top: solid;
+    border-color: #EFEFEF;
+    left: 10%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: solid;
+    margin-top:20px;
+    top: 0px;
+    
+    }
+
+    .Bio_Facebook {
+    width: 35px;
+    position: relative;
+    height: auto;
+    bottom: 17px;
+    left: 75%;
+    top: 0px;
+    
+    }
+
+    .Bio_Twitter {
+    width: 37px;
+    position: relative;
+    height: auto;
+    bottom: 17px;
+    left: 75%;  
+    top: 0px;
+    }
+
+
+    .Bio_Google{
+    width: 35px;
+    position: relative;
+    height: auto;
+    bottom: 17px;
+    left: 1080px;
+    top: 0px;
+    }
+
+    .Bio_Copyright {
+    width: 37px;
+    position: relative;
+    height: auto;
+    bottom: 17px;
+    left: 75%;
+    top: 0px;
+    }
+        
+/* End of Bio and Stats CSS
+   Start of Matches CSS*/
+    .Matches{
+    position:relative;
+    Height: 1000px;
+    width:100%;
+    }
+
+    .Matches_Header {
+    text-align: center;
+    padding:inherit;
+    margin: auto;
+    }
+    
+    .Primary_Video {
+    position: absolute;
+    margin: auto;
+    left: 250px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    }
+    
+    .Primary_Match_Head {
+    position: absolute;
+    padding: 0px;
+    margin: 5px;
+    font-size: 200%;
+    padding-top: 50px;
+    padding-left: 50px;
+    top:610px;
+    }
+
+    .Viewers {
+    text-align: right;
+    position: absolute;
+    font-size: 170%;
+    padding-right: 50%;
+    top: 625px; 
+    left: 45%;
+    
+    }
+
+    .Primary_Match_Details {
+    position: absolute;
+    padding-left: 55px;
+    padding-top: 0px;
+    bottom: 120px;
+    top:690px;
+    }
+
+    .Live_Chat {
+    text-align: right;
+    font-size: 150%;
+    position: absolute;
+    padding-right: 20%;
+    padding-bottom: 300px;
+    border: solid #4C4C4C;
+    margin-left: 52%;
+    margin-right: 2%;
+    padding-bottom: 300px;
+    border-radius: 5px;
+    top:610px;
+    left: 30px;
+    width:300px;
+    background-color: white;
+    color:black;
+    }
+    
+    .LiveChat_Scroll{
+    overflow: auto;
+    line-height: 3em;
+    padding: 5px;
+    position: absolute;
+    height: 290px;
+    width: 580px;
+    left: 780px;
+    top:681px;
+    color:black;
+    }
+
+    .Account {
+    text-align: right;
+    font-size: 80%;
+    top: 650px;
+    position: absolute;
+    padding-right: 6%;
+    border-bottom: solid #4C4C4C;
+    padding-left: ;
+    width: 507px;
+    left: 780px;
+    color:black;
+    }
+
+    .Match_1 {
+    text-align: right;
+    font-size: 150%;
+    margin-left: 20px;
+    padding-left: 12%;
+    width: 20%;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding-top: 200px;
+    position: absolute;
+    top:1000px;
+    color: #800000;
+    opacity: 0.8;
+    }
+
+    .Match_Image_1 {
+    text-align: right;
+    font-size: 150%;
+    margin-left: 24px;
+    padding-left: 0%;
+    width: 20%;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    position: absolute;
+    top:1045px;
+    height: 235px;
+    z-index: -1;
+    width: 100px;
+    }
+
+
+    .Match_2 {
+    text-align: center;
+    font-size: 150%;
+    margin-left: 20px;
+    padding-left: 6%;
+    width: 20%;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding-top: 200px;
+    position: absolute;
+    top:1000px;
+    left: 34%;
+    padding-right: 6%;
+    opacity: 0.9
+    }
+
+    .Match_Image_2 {
+    text-align: center;
+    font-size: 150%;
+    margin-left: 20px;
+    padding-left: 2px;
+    width: 20%;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding-top: 00px;
+    position: absolute;
+    top:1045px;
+    left: 34%;
+    padding-right: 6%;
+    height: 235px;
+    width: 460px;
+    z-index: -1;
+    }
+        
+    .Match_3 {
+    text-align: left;
+    font-size: 150%;
+    margin-right: 20px;
+    padding-right: 9%;
+    width: 20%;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding-top: 200px;
+    position: absolute;
+    bottom: 600px;
+    left: 69%;
+    top:1000px;
+    height:33px;
+    color:white;
+    z-index: 1;
+    opacity: 0.9;
+    }
+
+    .Match_Image_3 {
+    text-align: left;
+    font-size: 150%;
+    margin-right: 20px;
+    padding-right: 0%;
+    width: 20%;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding-top: 0px;
+    position: absolute;
+    bottom: 600px;
+    left: 69%;
+    top:1045px;
+    height:235px;
+    width: 422px;
+    z-index: -3;
+    
+    }
+
+    .Match_4 {
+    text-align: right;
+    font-size: 150%;
+    margin-left: 20px;
+    padding-left: 12%;
+    width: 20%;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding-top: 200px;
+    position: absolute;
+    top:1300px;
+    
+    }
+
+    .Match_Image_4 {
+    text-align: right;
+    font-size: 150%;
+    margin-left: 24px;
+    padding-left: 0%;
+    width: 460px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding-top: 0px;
+    position: absolute;
+    top:1345px;
+    height: 235px;
+    z-index: -1;
+
+    
+    }
+
+    .Match_5 {
+    text-align: center;
+    font-size: 150%;
+    margin-left: 20px;
+    padding-left: 6%;
+    width: 20%;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding-top: 200px;
+    position: absolute;
+    top:1300px;
+    left: 34%;
+    padding-right: 6%;
+    }
+
+    .Match_Image_5 {
+    text-align: center;
+    font-size: 150%;
+    margin-left: 20px;
+    padding-left: 0%;
+    width: 464px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding-top: 0px;
+    position: absolute;
+    top:1345px;
+    left: 34%;
+    padding-right: 0%;
+    height: 235px;
+    z-index: -1;
+    
+    }
+        
+    .Match_6 {
+    text-align: left;
+    font-size: 150%;
+    margin-right: 20px;
+    padding-right: 9%;
+    width: 20%;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding-top: 200px;
+    position: absolute;
+    bottom: 300px;
+    left: 69%;
+    top:1300px;
+    height: 33px;
+    }
+
+    .Match_Image_6 {
+    text-align: left;
+    font-size: 150%;
+    margin-right: 24px;
+    padding-right: 0%;
+    width: 422px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding-top: 0px;
+    position: absolute;
+    bottom: 300px;
+    top:1345px;
+    height: 235px;
+    left: 995px;
+    z-index: -1;
+    }
+
+    .Home_Icon_Match {
+    height: 8%;
+    width: 5%;
+    top:30px;
+    position: absolute;
+    left: 10%;
+    } 
+
+    .Match_Footer {
+    text-align: right;
+    width: 80%;
+    top:1600px;
+    position: absolute;
+    border-top: solid;
+    border-color: black;
+    left: 10%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-bottom-color:#EFEFEF;
+    border-top-color:#EFEFEF;
+    }
+
+    .Match_Facebook {
+    width: 35px;
+    position: absolute;
+    height: auto;
+    top:1737px;
+    left: 1104px; 
+    
+    }
+
+    .Match_Twitter {
+    width: 37px;
+    position: absolute;
+    height: auto;
+    left: 1145px;  
+    top:1736px;
+    }
+
+
+    .Match_Google{
+    width: 35px;
+    position: absolute;
+    height: auto;
+    left: 1186px; 
+    top:1737px;
+    }
+
+    .Match_Copyright {
+    width: 37px;
+    position: absolute;
+    height: auto;
+    top:1737px;
+    left: 85%;
+    }
+    
+/* End of Matches CSS
+   Start of Gallery CSS*/
+    
+    .Gallery{
+    position:relative;
+    Width:100%;
+    height: 1500px;
+    }
+
+    .Home_Icon_Gallery {
+    height: 5%;
+    width: 5%;
+    top:30px;
+    position: absolute;
+    left: 10%;
+    } 
+    
+    .Gallery_Head{
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left:47%;
+    }
+
+    .Gallery_SubHead{
+     position: absolute;
+     top:80px;
+     left:45%;
+     text-align: center;
+    }
+
+    .Gallery_Head_Image{
+     position: absolute;
+     width: 900px;
+     height: 500px;
+     left: 280px;
+     top: 150px;
+     
+    }
+
+    .Head_Image_Title{
+    position: absolute;
+    top:620px;
+    text-align: center;
+    left:560px;
+    font-size: 200%;
+    }
+
+    .Image_Date{
+    position: absolute;
+    font-size: 150%;
+    top:635px;
+    left: 1000px;
+    }
+
+    .Image_Details{
+    position: absolute;
+    font-size: 100%;
+    top:680px;
+    left: 280px;
+    }
+
+    .Images{
+    position: absolute;
+    width:80%;
+    left:10%;
+    top:740px;
+    height: 40%;
+    }
+
+    .Gallery_Image_1{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    }
+
+    .Gallery_Image_2{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left: 11%;
+    }
+
+    .Gallery_Image_3{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left: 22%;
+    }
+
+    .Gallery_Image_4{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left: 33%;
+    }
+
+    .Gallery_Image_5{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left: 44%;
+    }
+
+    .Gallery_Image_6{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left: 55%;
+    }
+
+    .Gallery_Image_7{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left: 66%;
+    }
+
+    .Gallery_Image_8{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left: 77%;
+    }
+
+    .Gallery_Image_9{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left:88%;
+    }
+
+    .Gallery_Image_10{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    }
+
+    .Gallery_Image_11{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:11%;
+    }
+
+    .Gallery_Image_12{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:22%
+    }
+
+    .Gallery_Image_13{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:33%;
+    }
+
+    .Gallery_Image_14{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:44%;
+    }
+
+    .Gallery_Image_15{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:55%;
+    }
+
+    .Gallery_Image_16{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:66%;
+    }
+
+    .Gallery_Image_17{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:77%;
+    }
+
+    .Gallery_Image_18{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:88%;
+    }
+
+    .Gallery_Image_19{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    }
+
+    .Gallery_Image_20{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:11%;
+    }
+
+    .Gallery_Image_21{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:22%;
+    }
+
+    .Gallery_Image_22{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:33%;
+    }
+
+    .Gallery_Image_23{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:44%;
+    }
+
+    .Gallery_Image_24{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:55%;
+    }
+
+    .Gallery_Image_25{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:66%;
+    }
+
+    .Gallery_Image_26{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:77%;
+    }
+
+    .Gallery_Image_27{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:88%;
+    }
+    
+    .Gallery_Image_28{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 60%;
+    }
+
+    .Gallery_Image_29{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 60%;
+    left: 11%;
+    }
+
+    .Gallery_Image_30{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 60%;
+    left: 22%;
+    }
+
+    .Gallery_Image_31{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 60%;
+    left: 33%;
+    }
+
+    .Gallery_Image_32{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 60%;
+    left: 44%;
+    }
+
+    .Gallery_Image_33{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 60%;
+    left: 55%;
+    }
+
+    .Gallery_Image_34{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 60%;
+    left:66%;
+    }
+
+    .Gallery_Image_35{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 60%;
+    left: 77%;
+    }
+
+    .Gallery_Image_36{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 60%;
+    left: 88%;
+    }
+
+    .Video_Head{
+    top:1250px;
+    position:absolute;
+    left:47%;
+    }
+
+    .Gallery_Head_Video{
+    position: absolute; 
+    top:1330px;
+    left: 21%;
+    }
+
+    .Head_Video_Title{
+    position: absolute;
+    top:1820px;
+    left:35%;
+    font-size: 200%
+    }
+
+    .Video_Date{
+    position: absolute;
+    font-size: 150%;
+    top:1830px;
+    left: 1000px;
+    }
+
+    .Video_Details{
+    position: absolute;
+    font-size: 100%;
+    top:1880px;
+    left: 280px;
+    }
+
+    .Videos{
+    position: absolute;
+    height: 40%;
+    width: 80%;
+    left:10%;
+    top:1950px;
+    
+    }
+    
+    .Gallery_Video_1{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    }
+
+    .Gallery_Video_2{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left: 11%;
+    }
+
+    .Gallery_Video_3{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left: 22%;
+    }
+
+    .Gallery_Video_4{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left: 33%;
+    }
+
+    .Gallery_Video_5{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left: 44%;
+    }
+
+    .Gallery_Video_6{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left: 55%;
+    }
+
+    .Gallery_Video_7{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left: 66%;
+    }
+
+    .Gallery_Video_8{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left: 77%;
+    }
+
+    .Gallery_Video_9{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    left:88%;
+    }
+
+    .Gallery_Video_10{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    }
+
+    .Gallery_Video_11{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:11%;
+    }
+
+    .Gallery_Video_12{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:22%
+    }
+
+    .Gallery_Video_13{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:33%;
+    }
+
+    .Gallery_Video_14{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:44%;
+    }
+
+    .Gallery_Video_15{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:55%;
+    }
+
+    .Gallery_Video_16{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:66%;
+    }
+
+    .Gallery_Video_17{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:77%;
+    }
+
+    .Gallery_Video_18{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 20%;
+    left:88%;
+    }
+
+    .Gallery_Video_19{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    }
+
+    .Gallery_Video_20{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:11%;
+    }
+
+    .Gallery_Video_21{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:22%;
+    }
+
+    .Gallery_Video_22{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:33%;
+    }
+
+    .Gallery_Video_23{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:44%;
+    }
+
+    .Gallery_Video_24{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:55%;
+    }
+
+    .Gallery_Video_25{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:66%;
+    }
+
+    .Gallery_Video_26{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:77%;
+    }
+
+    .Gallery_Video_27{
+    position: absolute; 
+    width:10%;
+    height:18%;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 1%;
+    top: 40%;
+    left:88%;
+    }
+
+    .Gallery_Footer {
+    text-align: right;
+    width: 80%;
+    top:2400px;
+    position: absolute;
+    border-top: solid;
+    border-color: black;
+    left: 10%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-bottom-color:#EFEFEF;
+    border-top-color:#EFEFEF;
+    }
+
+    .Gallery_Facebook {
+    width: 35px;
+    position: absolute;
+    height: auto;
+    top:2537px;
+    left: 1100px; 
+    
+    
+    }
+
+    .Gallery_Twitter {
+    width: 37px;
+    position: absolute;
+    height: auto;
+    left: 1145px;  
+    top:2536px;
+    }
+
+
+    .Gallery_Google{
+    width: 35px;
+    position: absolute;
+    height: auto;
+    left: 1186px;
+    top:2536px;
+    }
+
+    .Gallery_Copyright {
+    width: 37px;
+    position: absolute;
+    height: auto;
+    top:2537px;
+    left: 85%;
+    }
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

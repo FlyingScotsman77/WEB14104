@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.MacnCheese{
+    position:relative;
+    width: 90%;
+    height:700px;
+    left:5%;
+    right:5%;
+}
+
+.Title{
+    position:absolute;
+    left: 40%;
+    top:30px;
+}
+
+.Ingredients{
+    position:absolute;
+    top:190px;
+    left:5%;
+    height:300px;
+    width; 500px;
+    font-size: 140%;
+    font-family: sans-serif;    
+    ;
+}
+
+.MacnCheeseImage {
+    position:absolute;
+    width: 800px ;
+    margin-left: auto ;
+    margin-right: auto ;
+    left: 500px;
+    padding-top:0px;
+    top:100px;
+}
+
+.Recipe{
+    position:absolute;
+    top:600px;
+    text-align: left;

@@ -1,0 +1,93 @@
+/*BASIC CSS*/
+
+ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li
+{
+	padding: 1em;
+	background: rgba(15, 246, 255, 0.32);
+	border-bottom: rgba(128, 128, 128, 0.36) 5px solid;
+	/* The 4th value in the rgba is for opacity*/
+}
+
+img
+{
+	max-width:50%;
+	margin: auto;
+	/*Used to centre the image horizontally*/
+	display: block;
+	/*Needed in order to classify images as block, otherwise margin: auto; will not work*/
+	border-radius: 50%;
+	/*Rounds the images*/
+
+}
+
+.button
+{
+	background: rgba(255, 15, 15, 0.32);
+
+	border-radius: .5em;
+
+	color: red;
+
+	padding: .5em;
+
+	text-decoration: none;
+
+	display: block;
+
+	text-align: center;
+
+	font-size: 2em;
+}
+
+/*ANIMATIONS*/
+
+.button
+{
+	transition: all 0.5s linear;
+	/*unspecified transition*/
+}
+
+.button:hover
+{
+	background: black;
+
+	color: white;
+}
+
+li
+{
+	transition: all 1s linear;
+}
+
+li:hover
+{
+	background: rgba(255, 194, 0, 0.57);
+
+	color: rgba(240, 0, 228, 0.61);
+}
+
+img:hover
+{-webkit-animation: shake 1s infinite;
+}
+
+@-webkit-keyframes shake {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
